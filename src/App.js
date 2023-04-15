@@ -17,7 +17,7 @@ function App() {
     ])
   }
   function deleteRecipe(recipeToDelete){
-    let filteredRecipes = recipes.filter(recipe=>recipe != recipeToDelete)
+    let filteredRecipes = recipes.filter(recipe=>recipe !== recipeToDelete)
     setRecipes(filteredRecipes)
   }
   return (

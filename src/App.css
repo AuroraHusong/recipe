@@ -13,6 +13,12 @@ label {
 header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+h1{
+  font-family:'Playfair Display SC';
+  font-size:64px;
+  text-align:center;
+
+}
 
 /* typography */
 
@@ -60,3 +66,15 @@ table {
 
 
 /* Column size for tbody */
+thead th:nth-child(n+4):nth-child(-n+5) {
+  width: 30%;
+}
+tbody td:nth-child(4){
+  width:30%;
+}
+tbody td:nth-child(5){
+  width:30%;
+}
+tbody tr:nth-child(odd){
+  background-color:#fff0c7;
+}
